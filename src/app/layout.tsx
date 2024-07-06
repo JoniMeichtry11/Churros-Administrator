@@ -1,3 +1,6 @@
+import React from "react";
+import Head from "next/head";
+import Link from 'next/link';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -15,8 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body className={`${inter.className}`}>
+        <main className="container mx-auto p-4">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
