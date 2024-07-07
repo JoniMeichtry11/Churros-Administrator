@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-8 p-4 h-screen">
+      <h1 className='text-2xl font-bold'>CHURROS ADMINISTRATOR</h1>
       <Button href="/pages/prices">
         Precios
       </Button>
