@@ -91,6 +91,49 @@ const Prices = () => {
           <h1 className='text-4xl font-bold'>$3500</h1>
         </div>
       </div>
+      <h2 className='text-4xl font-semibold my-6'>Por unidad</h2>
+      <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
+        <div className="w-1/3">
+          <Image
+            src="/images/simples.png"
+            layout="responsive"
+            width={500}
+            height={500}
+            className='rounded-xl'
+            alt="Picture of the author"
+          />
+        </div>
+        <div className='text-center flex flex-col justify-between'>
+          <h1 className='text-4xl'>Simples</h1>
+          <h1 className='text-4xl font-bold'>$500</h1>
+        </div>
+      </div>
+      <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
+        <div className="w-1/2">
+          <Image
+            src="/images/simples.png"
+            layout="responsive"
+            width={500}
+            height={500}
+            className='rounded-xl'
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="w-1/2">
+          <Image
+            src="/images/dulce.png"
+            layout="responsive"
+            width={500}
+            height={500}
+            className='rounded-xl'
+            alt="Picture of the author"
+          />
+        </div>
+        <div className='text-center flex flex-col justify-between'>
+          <h1 className='text-xl'>Dulce de leche</h1>
+          <h1 className='text-4xl font-bold'>$600</h1>
+        </div>
+      </div>
     </div>
   );
 };
