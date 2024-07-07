@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ href, children }) => {
   return (
     <button>
-      <Link href={href} className='group relative overflow-hidden bg-blue-600 focus:ring-4 focus:ring-blue-300 inline-flex items-center px-10 py-4 rounded-lg text-white text-lg justify-center'>
+      <Link href={href} className='group relative overflow-hidden bg-[#D5B89A] focus:ring-4 focus:ring-[#fff0e0] inline-flex items-center px-10 py-4 rounded-lg text-lg justify-center'>
       {children}
         <svg className="z-40 ml-2 -mr-1 w-5 h-5 transition-all duration-300 group-hover:translate-x-1" fill="currentColor"
           viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
