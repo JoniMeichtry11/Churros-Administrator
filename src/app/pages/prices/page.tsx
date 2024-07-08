@@ -9,7 +9,7 @@ const Prices = () => {
       <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
         <div className="w-1/3">
           <Image
-            src="/images/simples.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/simples.png?alt=media&token=88295da0-482b-48d6-99ba-53f7f550c31e"
             layout="responsive"
             width={500}
             height={500}
@@ -25,7 +25,7 @@ const Prices = () => {
       <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
         <div className="w-1/2">
           <Image
-            src="/images/simples.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/simples.png?alt=media&token=88295da0-482b-48d6-99ba-53f7f550c31e"
             layout="responsive"
             width={500}
             height={500}
@@ -35,7 +35,7 @@ const Prices = () => {
         </div>
         <div className="w-1/2">
           <Image
-            src="/images/dulce.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/dulce.png?alt=media&token=a0c247d3-a8aa-4219-a297-9111c5209084"
             layout="responsive"
             width={500}
             height={500}
@@ -52,7 +52,7 @@ const Prices = () => {
       <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
         <div className="w-1/3">
           <Image
-            src="/images/simples.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/simples.png?alt=media&token=88295da0-482b-48d6-99ba-53f7f550c31e"
             layout="responsive"
             width={500}
             height={500}
@@ -68,7 +68,7 @@ const Prices = () => {
       <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
         <div className="w-1/2">
           <Image
-            src="/images/simples.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/simples.png?alt=media&token=88295da0-482b-48d6-99ba-53f7f550c31e"
             layout="responsive"
             width={500}
             height={500}
@@ -78,7 +78,7 @@ const Prices = () => {
         </div>
         <div className="w-1/2">
           <Image
-            src="/images/dulce.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/dulce.png?alt=media&token=a0c247d3-a8aa-4219-a297-9111c5209084"
             layout="responsive"
             width={500}
             height={500}
@@ -95,7 +95,7 @@ const Prices = () => {
       <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
         <div className="w-1/3">
           <Image
-            src="/images/simples.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/simples.png?alt=media&token=88295da0-482b-48d6-99ba-53f7f550c31e"
             layout="responsive"
             width={500}
             height={500}
@@ -111,7 +111,7 @@ const Prices = () => {
       <div className="flex gap-4 my-4 bg-[#D5B89A] p-4 rounded-lg max-w-md">
         <div className="w-1/2">
           <Image
-            src="/images/simples.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/simples.png?alt=media&token=88295da0-482b-48d6-99ba-53f7f550c31e"
             layout="responsive"
             width={500}
             height={500}
@@ -121,7 +121,7 @@ const Prices = () => {
         </div>
         <div className="w-1/2">
           <Image
-            src="/images/dulce.png"
+            src="https://firebasestorage.googleapis.com/v0/b/churros-administrator.appspot.com/o/dulce.png?alt=media&token=a0c247d3-a8aa-4219-a297-9111c5209084"
             layout="responsive"
             width={500}
             height={500}

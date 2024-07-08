@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import withPWAInit from "@ducanh2912/next-pwa";
 
-export default nextConfig;
+const withPWA = withPWAInit({
+  dest: "public",
+});
+
+const nextConfig = {
+  images: {
+    domains: ["firebasestorage.googleapis.com, churros-administrator.web.app"],
+  },
+  images: {
+    unoptimized: true,
+  },
+};
+
+export default withPWA(nextConfig);

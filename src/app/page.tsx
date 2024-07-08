@@ -1,13 +1,19 @@
-import React from 'react';
-import Link from 'next/link';
-import { Metadata } from 'next'
+"use client";
+
+import React, { useEffect, useState } from 'react';
 import Button from './components/Button';
- 
-export const metadata: Metadata = {
-  title: 'Next.js',
-}
+import ButtonPWA from './components/ButtonPWA';
 
 const Home = () => {
+  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+
+  useEffect(() => {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    });
+  }, []);
+  
   return (
     <div className="flex flex-col items-center justify-center gap-8 p-4 h-screen">
       <h1 className='text-2xl font-bold'>CHURROS ADMINISTRATOR</h1>
@@ -17,6 +23,7 @@ const Home = () => {
       <Button href="/pages/calculator">
         Calculadora
       </Button>
+      <ButtonPWA deferredPrompt={deferredPrompt} />
     </div>
   );
 };
