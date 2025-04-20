@@ -8,8 +8,8 @@ const Unidad = () => {
   const [simplesValue, setSimplesValue] = useState<number>(0);
   const [dulceDeLecheValue, setDulceDeLecheValue] = useState<number>(0);
 
-  const precioSimples = 500;
-  const precioDulceDeLeche = 600;
+  const precioSimples = 700;
+  const precioDulceDeLeche = 900;
 
   const totalPrice = ((simplesValue * precioSimples) + (dulceDeLecheValue * precioDulceDeLeche)).toFixed(2);
 

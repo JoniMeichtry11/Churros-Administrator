@@ -7,8 +7,8 @@ const Docena = () => {
   const [simplesValue, setSimplesValue] = useState<number>(0);
   const [dulceDeLecheValue, setDulceDeLecheValue] = useState<number>(0);
 
-  const precioSimples = 3000;
-  const precioDulceDeLeche = 3500;
+  const precioSimples = 4000;
+  const precioDulceDeLeche = 5000;
 
   const totalPrice = ((simplesValue * precioSimples) + (dulceDeLecheValue * precioDulceDeLeche)).toFixed(2);
   
